@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, 
+      -apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: #222;
+    color: #fff;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.head{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px auto;
+}
+.head p{
+    margin: 5px auto;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.input .payment{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+input{
+    outline: none;
+    width: 100%;
+    border: none;
+    height: 30px;
+    background-color: #111;
+    margin: 8px 0;
+    border-radius: 8px;
+    padding: 4px 10px;
+    color: #fff;
+}
+input:focus{
+    background-color: #000;
+    scale: 1.01;
+}
+
+.payment input{
+    width: 20%; 
+}
+.payment span{
+    background-color:red;
+    padding: 5px 2px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.input p{
+    color: red;
+    font-size: 18px;
+    margin: 10px auto;
+    display: none;
+}
+button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: #470053;
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin: 8px 0;
+    font-size: 18px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+button:hover{
+    background-color: #51045f;
+    letter-spacing: 1px;
+   
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+}
+.search button{
+    width: 45%;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+table th{
+    text-transform: uppercase;
+}
+th,td{
+    padding: 5px;
+}
+.clear-all{
+    margin: 10px 0;
+    display: none;
+    text-transform:capitalize;
+}
